@@ -8,9 +8,16 @@ function App() {
   return (
     <>
       <ShippingBanner setShowDrawer={setShowDrawer} showDrawer={showDrawer} />
-      {showDrawer && <ShippingDeliveryInfoDrawer />}
+      {showDrawer && (
+        <ShippingDeliveryInfoDrawer
+          setShowDrawer={setShowDrawer}
+          showDrawer={showDrawer}
+        />
+      )}
     </>
   );
 }
 
 export default App;
+
+//https://www.aesop.com/hk/en/

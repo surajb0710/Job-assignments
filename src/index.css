@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .line-h-1-4 {
+    line-height: 1.4 !important;
+  }
+}
+
+:root {
+  --global-line-height: 1.7;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Suisse Regular', sans-serif;
+  line-height: var(--global-line-height) !important;
 }
 
 @font-face {
@@ -12,4 +23,19 @@
   src: url('./src/assets/fonts/SuisseIntl-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Suisse Medium';
+  src: url('./src/assets/fonts/SuisseIntl-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.text-Suisse-Medium {
+  font-family: 'Suisse Medium', sans-serif;
+}
+
+.line-h-1-4 {
+  --global-line-height: 1.4 !important;
 }

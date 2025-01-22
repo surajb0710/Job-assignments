@@ -1,12 +1,12 @@
 import AddIcon from '@mui/icons-material/Add';
 import PropType from 'prop-types';
 
-const ShippingBanner = ({ showDrawer, setShowDrawer }) => {
+const ShippingBanner = ({ setShowDrawer }) => {
   return (
     <div className="px-2.5 pt-3 pb-2 flex items-start justify-center bg-[#252525]">
       <button
         className="flex gap-5 items-center py-[1.4px]"
-        onClick={() => setShowDrawer(!showDrawer)}
+        onClick={() => setShowDrawer(true)}
       >
         <p className="text-[#fffef2] text-sm">
           Enjoy complimentary shipping and a pack of red envelopes with every
