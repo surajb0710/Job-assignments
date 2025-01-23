@@ -8,10 +8,6 @@
   }
 }
 
-:root {
-  --global-line-height: 1.7;
-}
-
 * {
   box-sizing: border-box;
   font-family: 'Suisse Regular', sans-serif;
@@ -36,6 +32,6 @@
   font-family: 'Suisse Medium', sans-serif;
 }
 
-.line-h-1-4 {
+/* .line-h-1-4 {
   --global-line-height: 1.4 !important;
-}
+} */
