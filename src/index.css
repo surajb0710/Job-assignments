@@ -15,6 +15,13 @@
 }
 
 @font-face {
+  font-family: 'Suisse';
+  src: url('./src/assets/fonts/Suisse.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Suisse Regular';
   src: url('./src/assets/fonts/SuisseIntl-Regular.woff2') format('woff2');
   font-weight: 400;
@@ -32,6 +39,6 @@
   font-family: 'Suisse Medium', sans-serif;
 }
 
-/* .line-h-1-4 {
-  --global-line-height: 1.4 !important;
-} */
+.text-Suisse {
+  font-family: 'Suisse', sans-serif;
+}
